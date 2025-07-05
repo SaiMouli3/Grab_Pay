@@ -6,3 +6,12 @@ fastapi
 uvicorn[standard]
 pytest
 httpx
+sqlalchemy
+pydantic
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+aiofiles
+websockets
+starlette
+jinja2

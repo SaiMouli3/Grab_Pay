@@ -11,6 +11,6 @@ class Transaction(BaseModel):
     charge_id: str = Field(..., alias='chargeId')
     status: str
     amount: TransactionAmount
-    metadata: Dict[str, Any]
+    transaction_metadata: Dict[str, Any] = Field(..., alias='metadata')
     created_at: str = Field(..., alias='createdAt')
     updated_at: str = Field(..., alias='updatedAt')
